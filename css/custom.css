@@ -1,0 +1,123 @@
+/* General body styles */
+body {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  color: #212529;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+}
+
+/* Header styles */
+h5 {
+  font-weight: bold;
+  color: #ff5e57; /* Vibrant coral */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+h4 {
+  font-weight: bold;
+  color: black; /* Vibrant coral */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Buttons */
+.btn {
+  margin-right: 10px;
+  font-weight: bold;
+  padding: 10px 20px; /* Add padding for larger buttons */
+  border-radius: 50px; /* Make buttons pill-shaped */
+  border: none; /* Remove borders */
+  transition: all 0.3s ease; /* Smooth hover effect */
+  color: #fff; /* White text */
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4); /* Match background gradient */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+.btn:hover {
+  background: linear-gradient(135deg, #fad0c4, #ff9a9e); /* Reverse the gradient on hover */
+  transform: scale(1.1); /* Slight hover scaling */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+th {
+  background-color: #6c757d; /* Dark gray */
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+td {
+  padding: 10px;
+  text-align: center;
+}
+tr:hover {
+  background-color: #f8d7da; /* Soft pink */
+}
+td img {
+  border-radius: 50%;
+  border: 2px solid #ff5e57; /* Coral */
+}
+
+/* Margin for the table */
+#table {
+  margin-top: 20px;
+}
+/* Avatar Image */
+#avatarImage img {
+  border-radius: 50%;
+  border: 4px solid #fad0c4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #ff5e57;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #ff9a9e;
+  outline: none;
+}
+
+/* File input (hidden) */
+input[type="file"] {
+  display: block;
+  margin: 15px auto;
+}
+/* Form buttons (home, edit, delete) */
+#homeLink, #editContact, #deleteContact {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
